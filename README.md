@@ -15,7 +15,7 @@ SpringBoot Application which  performs CRUD operations employee registry data
 # Run #
    * move to project root directory
    * run ***mvn verify*** 
-   * run ***java -jar target/employee-registry --server.port=<port>***
+   * run ***java -jar target/employee-registry --server.port=<port\> ***
         example: java -jar target/employee-registry --server.port=7878
    * open browser path: ***http://localhost:7878/h2***
    * login ***user:admin  password:admin***
