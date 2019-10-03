@@ -1,5 +1,5 @@
 # employee_registry_backend
-SpringBoot Application which  performs CRUD operations employee registry data
+SpringBoot Application which  performs CRUD operations on employee registry data
 
 # prerequisites # 
    * Install Java8
