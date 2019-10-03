@@ -3,13 +3,13 @@ SpringBoot Application which  performs CRUD operations on employee registry data
 
 # prerequisites # 
    * Install Java8
-           * installation  : https://www.oracle.com/technetwork/java/jdk8-downloads-2133151.html
-           * documentation : https://docs.oracle.com/javase/8/docs/api
+           1) installation  : https://www.oracle.com/technetwork/java/jdk8-downloads-2133151.html
+           2) documentation : https://docs.oracle.com/javase/8/docs/api
    * SpringBoot sources
-           * documentaion : https://spring.io/docs
+           1) documentaion : https://spring.io/docs
    * Maven
-           * installation  : https://maven.apache.org/download.cgi
-           * documentation : https://maven.apache.org/guides
+           1) installation  : https://maven.apache.org/download.cgi
+           2) documentation : https://maven.apache.org/guides
 
 
 # Run #
