@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EmployeeRegistryService {
-	public static void main(String[] args) throws Exception {
-		throw new Exception("hello");
+	public static void main(String[] args)  {
 		SpringApplication.run(EmployeeRegistryService.class, args);
 	}
 }
