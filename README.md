@@ -1,4 +1,4 @@
-# employee_registry_backend
+# employee_registry_backend [![Build Status](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_apis/build/status/chandra-prakash-reddy.employee_registry_backend?branchName=master)](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_build/latest?definitionId=3&branchName=master)
 SpringBoot Application which  performs CRUD operations on employee registry data
 
 # prerequisites # 
