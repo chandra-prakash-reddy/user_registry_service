@@ -17,10 +17,6 @@ SpringBoot Application which  performs CRUD operations on employee registry data
    * run ***mvn verify*** 
    * run ***java -jar target/employee-registry --server.port=<port\>***
       * example: java -jar target/employee-registry --server.port=7878
-   * open browser path: ***http://localhost:7878/h2***
-   * login ***user:admin  password:admin***
-   * install datamodel in h2 with following file content (copy and paste in console and click run icon)
-        https://github.com/chandra-prakash-reddy/employee_registry_backend/blob/master/src/main/resources/employee-registry.sql
   
   # Docker Run #
    * ***docker run command :***
