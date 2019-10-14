@@ -22,4 +22,10 @@ SpringBoot Application which  performs CRUD operations on employee registry data
    * install datamodel in h2 with following file content (copy and paste in console and click run icon)
         https://github.com/chandra-prakash-reddy/employee_registry_backend/blob/master/src/main/resources/employee-registry.sql
   
+  # Docker Run #
+   * ***docker run command :***
+       docker run -p <port>:8080 --name <container_name> chandraprakashreddy/applications:employee-registry-services-v1.01 
   
+   * ***run arguments :***
+      * <port> : provide the port number on which it should be run the process
+      * <container_name> : provide the container naem
