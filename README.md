@@ -28,4 +28,4 @@ SpringBoot Application which  performs CRUD operations on employee registry data
   
    * ***run arguments :***
       * <port> : provide the port number on which it should be run the process
-      * <container_name> : provide the container naem
+      * <container_name> : provide the container name
