@@ -27,5 +27,5 @@ SpringBoot Application which  performs CRUD operations on employee registry data
        docker run -p <port>:8080 --name <container_name> chandraprakashreddy/applications:employee-registry-services-v1.01 
   
    * ***run arguments :***
-      * <port> : provide the port number on which it should be run the process
+      * \<port> : provide the port number on which it should be run the process
       * <container_name> : provide the container name
