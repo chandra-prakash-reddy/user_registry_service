@@ -29,7 +29,7 @@ SpringBoot Application which  performs CRUD operations on employee registry data
       * <container_name> : provide the container name
 # verify #
    * open ***http://\<host>:\<port>/swagger-ui.html***
-      * ***example:- http://localhost:7878/swagger-ui.html***
+      * ***example:- http://localhost:7878/swagger-ui.html*** can see sevice running
 # pom.xml #
    Find the pom dependency reference here [pom.xml](https://search.maven.org/artifact/com.github.chandra-prakash-reddy/employee-registry/1.1/jar "pom.xml")
 
