@@ -1,4 +1,6 @@
-# employee_registry_backend [![Build Status](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_apis/build/status/chandra-prakash-reddy.employee_registry_backend?branchName=master)](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_build/latest?definitionId=3&branchName=master)
+# employee_registry_backend [![Build Status](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_apis/build/status/chandra-prakash-reddy.employee_registry_backend?branchName=master)](https://dev.azure.com/chandra-prakash-reddy/EmployeeRegistry/_build/latest?definitionId=3&branchName=master) [![Maven Central](https://maven-badges-generator.herokuapp.com/maven-central/com.github.chandra-prakash-reddy/employee-registry/badge.svg?color=orange)](https://maven-badges-generator.herokuapp.com/maven-central/com.github.chandra-prakash-reddy/employee-registry)
+
+
 SpringBoot Application which  performs CRUD operations on employee registry data
 
 # prerequisites # 
