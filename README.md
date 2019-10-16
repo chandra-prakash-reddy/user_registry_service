@@ -27,3 +27,6 @@ SpringBoot Application which  performs CRUD operations on employee registry data
    * ***run arguments :***
       * \<port> : provide the port number on which it should be run the process
       * <container_name> : provide the container name
+
+# License #
+   This project is licensed under the MIT License - see the [Named Link](https://opensource.org/licenses/MIT "License")  for details
