@@ -29,4 +29,4 @@ SpringBoot Application which  performs CRUD operations on employee registry data
       * <container_name> : provide the container name
 
 # License #
-   This project is licensed under the MIT License - see the [Named Link](https://opensource.org/licenses/MIT "License")  for details
+   This project is licensed under the MIT License - see the [License](https://opensource.org/licenses/MIT "License")  for details
