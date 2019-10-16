@@ -27,6 +27,8 @@ SpringBoot Application which  performs CRUD operations on employee registry data
    * ***run arguments :***
       * \<port> : provide the port number on which it should be run the process
       * <container_name> : provide the container name
+# pom.xml #
+   Find the pom dependency reference here [pom.xml](https://search.maven.org/artifact/com.github.chandra-prakash-reddy/employee-registry/1.1/jar "pom.xml")
 
 # License #
    This project is licensed under the MIT License - see the [License](https://opensource.org/licenses/MIT "License")  for details
