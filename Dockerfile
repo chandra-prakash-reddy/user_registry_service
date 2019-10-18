@@ -1,8 +1,6 @@
-FROM chandraprakashreddy/applications:rhel-maven-oraclejdk-1.0
+FROM maven:3.3-jdk-8
 
-ENV JAVA_HOME=/jdk1.8.0_221/jre
-ENV PATH=/jdk1.8.0_221/bin:$PATH
-ENV PATH=/apache-maven-3.5.4/bin:$PATH
+MAINTAINER <ChandraPrakash Kistaiahgari (reddyp148@gmail.com)>
 
 RUN mkdir employee_registry_backend
 RUN mkdir employee_registry_backend/src
