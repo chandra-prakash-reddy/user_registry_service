@@ -21,7 +21,7 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: '-s settings.xml deploy'
+    goals: 'deploy -s settings.xml '
     
 - task: Docker@2
   inputs:
