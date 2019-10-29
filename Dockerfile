@@ -7,8 +7,8 @@ RUN mkdir employee_registry_backend/src
 
 ADD ./src /employee_registry_backend/src/
 ADD ./pom.xml /employee_registry_backend/pom.xml
-
-RUN mvn -f /employee_registry_backend/pom.xml clean install
+ADD ./target /employee_registry_backend/target
+#RUN mvn -f /employee_registry_backend/pom.xml clean install
 EXPOSE 8080
 
 ENTRYPOINT [ "sh", "-c", " nohup java -XX:-HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/dumps/ -Djava.security.egd=file:/dev/./urandom -jar /employee_registry_backend/target/*.jar --server.port=8080" ]
