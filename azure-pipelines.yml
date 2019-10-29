@@ -21,7 +21,7 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'release:rollback  -s settings.xml '
+    goals: 'clean install  -s settings.xml '
     
 - task: Docker@2
   inputs:
