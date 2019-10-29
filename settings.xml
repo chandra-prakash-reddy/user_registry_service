@@ -15,11 +15,20 @@
     </proxies>
 
     <servers>
+               <!--enable this for deploying to maven cnetral
         <server>
             <id>ossrh</id>
             <username>XXXXX</username>
             <password>XXXXX</password>
         </server>
+          ---->
+              <server>
+  <id>dev-azure-com-chandra-prakash-reddy-chandra-prakash-reddy</id>
+  <username>chandra-prakash-reddy</username>
+  <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+  <!-- The generated token expires on or before 1/27/2020 -->
+  <password>ijuajlteogxbfrimz42jlceseve4fllakjuqda6a3rcg74t73mxq</password>
+</server>
     </servers>
 
 
@@ -29,6 +38,7 @@
 
 
     <profiles>
+              <!--enable this for deploying to maven cnetral
         <profile>
             <id>ossrh</id>
             <activation>
@@ -38,6 +48,7 @@
                 <gpg.passphrase>XXXXX</gpg.passphrase>
             </properties>
         </profile>
+--->
     </profiles>
 
 
