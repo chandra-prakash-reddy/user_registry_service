@@ -58,6 +58,19 @@
 		</dependency>
 
 	</dependencies>
+	
+	<repositories>
+		<repository>
+  <id>dev-azure-com-chandra-prakash-reddy-chandra-prakash-reddy</id>
+  <url>https://pkgs.dev.azure.com/chandra-prakash-reddy/_packaging/chandra-prakash-reddy/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	</repositories>
 
 	<build>
 		<plugins>
