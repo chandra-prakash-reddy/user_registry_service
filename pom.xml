@@ -71,6 +71,20 @@
   </snapshots>
 </repository>
 	</repositories>
+	
+	<distributionManagement>
+    <!-- Copy this section from the Maven section of the "Connect to Feed" dialog -->
+    <repository>
+  <id>dev-azure-com-chandra-prakash-reddy-chandra-prakash-reddy</id>
+  <url>https://pkgs.dev.azure.com/chandra-prakash-reddy/_packaging/chandra-prakash-reddy/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+   </distributionManagement>
 
 	<build>
 		<plugins>
