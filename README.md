@@ -18,7 +18,7 @@ SpringBoot Application which  performs CRUD operations on employee registry data
    * move to project root directory
    * run ***mvn verify*** 
    * run ***java -jar target/employee-registry --server.port=<port\>***
-      * example: java -jar target/employee-registry --server.port=7878
+      * example: java -jar target/employee-registry.jar --server.port=7878
   
   # Docker Run #
    * ***docker run command :***
